@@ -1,0 +1,2 @@
+# Se intra pe speedtest.net , se face un test si se memoreaza mbps_downloads si mbps_uploads
+# Se intra pe reddit, se logheaza, si se face o postare cu publicarea datelor respective
