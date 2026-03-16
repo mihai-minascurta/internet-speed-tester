@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=C3B550&center=true&vCenter=true&width=600&lines=%F0%9F%91%BE+Internet+Speed+Reddit+Bot;%E2%9A%A1+Selenium+Automation;" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FF4500&center=true&vCenter=true&width=600&lines=%F0%9F%91%BE+Internet+Speed+Reddit+Bot;%E2%9A%A1+Selenium+Automation;" alt="Animated Header" />
 </div>
 
 <br>
@@ -9,7 +9,7 @@
   &nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Automation-A9FEF7?style=for-the-badge&logo=robotframework&logoColor=black" height="35">
+  <img src="https://img.shields.io/badge/Reddit_Automation-FF4500?style=for-the-badge&logo=reddit&logoColor=white" height="35">
 </div>
 
 <br>
@@ -19,13 +19,13 @@
   <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
 </h3>
 
-An automated Python script designed to hold internet service providers accountable. The bot runs a speed test, compares the results with your promised contract speeds, and automatically logs into Twitter to post a tweet directed at your provider if the speeds are below the guaranteed threshold.
+An automated network monitoring tool built to hold Internet Service Providers accountable. The bot executes a real-time speed test and, if the results fall below the guaranteed contract speeds, it automatically logs into Reddit to post a complaint on the provider's official subreddit.
 
-**Key Features:**
-* **🤖 Web Automation:** Uses `Selenium Webdriver` to navigate Speedtest.net and Reddit.
-* **📊 Performance Analysis:** Extracts download and upload metrics in real-time.
-* **🐦 Automated Tweeting:** Programmatically fills forms and interacts with Twitter's dynamic UI to post complaints.
-* **🏗️ OOP Structure:** Built using a Class-based approach for clean and maintainable code.
+**Technical Logic (Verified):**
+* **🤖 Multi-Domain Automation:** Orchestrates a complex Selenium workflow, moving from speed diagnostics on Speedtest.net to automated community engagement on Reddit.
+* **🏗️ OOP Architecture:** Encapsulates the bot's state (down/up speeds) and behavior within a dedicated `InternetSpeedRedditBot` class for modularity.
+* **🧠 Threshold-Based Triggers:** Implements logical comparisons between live metrics and contractually promised speeds to decide if a public post is necessary.
+* **🔍 Reddit DOM Interaction:** Navigates Reddit's dynamic interface, handling login flows and automated form submission to post detailed performance reports.
 
 <br>
 
@@ -36,9 +36,9 @@ An automated Python script designed to hold internet service providers accountab
 
 ```text
 internet-speed-tester/
-├── main.py                     # Main execution loop and logic
+├── main.py                     # Workflow controller & logic gates
 ├── speed_bot.py                # InternetSpeedRedditBot Class definition
-└── .env                        # Credentials (Reddit Email/Pass/Provider)
+└── .env                        # Credentials (Reddit Login & ISP Thresholds)
 ```
 <h3>
   🧠 Code Review & Complexity<br>
@@ -55,18 +55,26 @@ internet-speed-tester/
 >
 > 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛ **90%** | **DOM Interaction (Selenium)**<br>
 > 🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛ **70%** | **OOP Architecture (Classes)**<br>
-> 🟦🟦🟦🟦🟦🟦🟦🟦⬛⬛ **80%** | **Error Handling (Wait Times)**<br>
-> 🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛ **50%** | **Credential Management**
+> 🟦🟦🟦🟦🟦🟦🟦🟦⬛⬛ **80%** | **Handling Dynamic Pop-ups**<br>
+> 🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛ **50%** | **Automation Logic**
 
 <br>
 
 **🟢 High-Impact Wins:**
-* **Bot Logic:** Excellent use of Object-Oriented Programming (OOP) to encapsulate the bot's behavior.
-* **Element Targeting:** Successfully navigating complex, dynamic websites that use frequently changing CSS classes.
+* **Logic Decoupling:** Separating the speed diagnostic phase from the reporting phase ensures cleaner code.
+* **Complex UI Handling:** Successfully identifying and interacting with Reddit's intricate login and posting elements.
 
-**🔧 Key Recommendations:**
-* **Wait Strategies:** Use `WebDriverWait` (Explicit Waits) instead of `time.sleep()` to make the bot faster and more reliable on slow connections.
-* **Headless Mode:** Add an option to run the Chrome driver in `--headless` mode so the bot can run in the background without opening a browser window.
+**🔧 Technical Debt:**
+* **Relative Selectors:** If Reddit updates its UI, the bot might need an update to its XPaths/CSS Selectors.
+* **Headless Mode:** Running the bot without a visible UI (headless) would be a great production-ready improvement.
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/🤖_AI_Contribution-Project_HTML_%26_CSS-50FA7B?style=flat-square" alt="AI Note">
+  <br>
+  <samp style="font-size: 12px; color: #6272a4;">Any custom HTML/CSS used in this documentation's presentation was co-authored with AI.</samp>
+</div>
 
 <br>
 
