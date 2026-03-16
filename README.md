@@ -22,7 +22,7 @@
 An automated Python script designed to hold internet service providers accountable. The bot runs a speed test, compares the results with your promised contract speeds, and automatically logs into Twitter to post a tweet directed at your provider if the speeds are below the guaranteed threshold.
 
 **Key Features:**
-* **🤖 Web Automation:** Uses `Selenium Webdriver` to navigate Speedtest.net and Twitter.
+* **🤖 Web Automation:** Uses `Selenium Webdriver` to navigate Speedtest.net and Reddit.
 * **📊 Performance Analysis:** Extracts download and upload metrics in real-time.
 * **🐦 Automated Tweeting:** Programmatically fills forms and interacts with Twitter's dynamic UI to post complaints.
 * **🏗️ OOP Structure:** Built using a Class-based approach for clean and maintainable code.
