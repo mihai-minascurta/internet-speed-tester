@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=C3B550&center=true&vCenter=true&width=600&lines=%F0%9F%91%BE+Internet+Speed+Twitter+Bot;%E2%9A%A1+Selenium+Automation;%F0%9F%93%A1+Network+Performance+Tracker" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=C3B550&center=true&vCenter=true&width=600&lines=%F0%9F%91%BE+Internet+Speed+Reddit+Bot;%E2%9A%A1+Selenium+Automation;" alt="Animated Header" />
 </div>
 
 <br>
