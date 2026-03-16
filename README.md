@@ -37,7 +37,7 @@ An automated Python script designed to hold internet service providers accountab
 ```text
 internet-speed-tester/
 ├── main.py                     # Main execution loop and logic
-├── speed_bot.py                # InternetSpeedTwitterBot Class definition
+├── speed_bot.py                # InternetSpeedRedditBot Class definition
 └── .env                        # Credentials (Reddit Email/Pass/Provider)
 ```
 <h3>
